@@ -1,0 +1,93 @@
+//
+//  Wastemandata.swift
+//  EcoApp
+//
+//  Created by sanya matta on 8/1/24.
+//
+import Foundation
+struct Item: Identifiable {
+    var id = UUID()
+    var name: String
+    var disposalMethod: String
+}
+let itemList = [
+    Item(name: "Paper", disposalMethod: "Recycle"),
+    Item(name: "Plastic Bottle", disposalMethod: "Recycle"),
+    Item(name: "Glass Jar", disposalMethod: "Recycle"),
+    Item(name: "Aluminum Can", disposalMethod: "Recycle"),
+    Item(name: "Cardboard", disposalMethod: "Recycle"),
+    Item(name: "Food Scraps", disposalMethod: "Compost"),
+    Item(name: "Yard Trimmings", disposalMethod: "Compost"),
+    Item(name: "Clothing", disposalMethod: "Donate"),
+    Item(name: "Furniture", disposalMethod: "Donate"),
+    Item(name: "Batteries", disposalMethod: "Special"),
+    Item(name: "Electronics", disposalMethod: "Special"),
+    Item(name: "Paint", disposalMethod: "Special"),
+    Item(name: "Motor Oil", disposalMethod: "Special"),
+    Item(name: "Tires", disposalMethod: "Special"),
+    Item(name: "Medications", disposalMethod: "Special"),
+    Item(name: "Compact Fluorescent Lamps (CFLs)", disposalMethod: "Special"),
+    Item(name: "Thermometer (Mercury)", disposalMethod: "Special"),
+    Item(name: "Ink Cartridges", disposalMethod: "Return Program"),
+    Item(name: "Mobile Phones", disposalMethod: "Return Program"),
+    Item(name: "Eyeglasses", disposalMethod: "Donate"),
+    Item(name: "Books", disposalMethod: "Donate"),
+    Item(name: "Cooking Oil", disposalMethod: "Special"),
+    Item(name: "Aerosol Cans", disposalMethod: "Special"),
+    Item(name: "Propane Tanks", disposalMethod: "Special"),
+    Item(name: "Styrofoam", disposalMethod: "Trash"),
+    Item(name: "Pizza Boxes (Contaminated)", disposalMethod: "Trash"),
+    Item(name: "Diapers", disposalMethod: "Trash"),
+    Item(name: "Cigarette Butts", disposalMethod: "Trash"),
+    Item(name: "Snack Bags", disposalMethod: "Trash"),
+    Item(name: "Coffee Pods", disposalMethod: "Special"),
+    Item(name: "Light Bulbs (non-LED)", disposalMethod: "Special"),
+    Item(name: "Garden Hose", disposalMethod: "Trash"),
+    Item(name: "Pesticides", disposalMethod: "Special"),
+    Item(name: "Sharps (Needles)", disposalMethod: "Special"),
+    Item(name: "Cosmetics", disposalMethod: "Trash"),
+    Item(name: "Construction Debris", disposalMethod: "Special"),
+    Item(name: "Christmas Trees", disposalMethod: "Special"),
+    Item(name: "Mattresses", disposalMethod: "Special"),
+    Item(name: "Plastic Shopping Bags", disposalMethod: "Return to Store"),
+    Item(name: "Fluorescent Tubes", disposalMethod: "Special"),
+    Item(name: "Unused Construction Materials", disposalMethod: "Donate"),
+    Item(name: "Old Towels and Linens", disposalMethod: "Donate"),
+    Item(name: "CDs and DVDs", disposalMethod: "Special"),
+    Item(name: "Used Appliances (Working)", disposalMethod: "Donate"),
+    Item(name: "Non-Working Appliances", disposalMethod: "Special"),
+    Item(name: "Old Carpets", disposalMethod: "Special"),
+    Item(name: "Used Cooking Grease", disposalMethod: "Special"),
+    Item(name: "Household Cleaners", disposalMethod: "Special"),
+    Item(name: "Fertilizers", disposalMethod: "Special"),
+    Item(name: "Weed Killers", disposalMethod: "Special"),
+    Item(name: "Pool Chemicals", disposalMethod: "Special"),
+    Item(name: "Old Flags", disposalMethod: "Special"),
+    Item(name: "Fire Extinguishers", disposalMethod: "Special"),
+    Item(name: "Helium Tanks", disposalMethod: "Special"),
+    Item(name: "Broken Tools", disposalMethod: "Trash"),
+    Item(name: "Takeout Containers", disposalMethod: "Trash"),
+    Item(name: "Plastic Utensils", disposalMethod: "Trash"),
+    Item(name: "Straws", disposalMethod: "Trash"),
+    Item(name: "Waxed Paper", disposalMethod: "Trash"),
+    Item(name: "Mirrors", disposalMethod: "Trash"),
+    Item(name: "Ceramics", disposalMethod: "Trash"),
+    Item(name: "Porcelain Items", disposalMethod: "Trash"),
+    Item(name: "Old Magazines", disposalMethod: "Recycle"),
+    Item(name: "Paint Cans (Empty)", disposalMethod: "Recycle"),
+    Item(name: "Inflatable Pools", disposalMethod: "Trash"),
+    Item(name: "Pet Bedding", disposalMethod: "Trash"),
+    Item(name: "Silica Gel Packets", disposalMethod: "Trash"),
+    Item(name: "Disposable Cameras", disposalMethod: "Special"),
+    Item(name: "VHS Tapes", disposalMethod: "Special"),
+    Item(name: "Aerosol Spray Cans (Empty)", disposalMethod: "Recycle"),
+    Item(name: "Dehumidifiers", disposalMethod: "Special"),
+    Item(name: "Home Heating Oil Tanks", disposalMethod: "Special"),
+    Item(name: "Asbestos Materials", disposalMethod: "Special"),
+    Item(name: "Pesticide Containers", disposalMethod: "Special"),
+    Item(name: "Photographic Chemicals", disposalMethod: "Special"),
+    Item(name: "Smoke Detectors", disposalMethod: "Special"),
+    Item(name: "Neon Signs", disposalMethod: "Special")
+]
+ 
+
